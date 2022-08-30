@@ -1,0 +1,23 @@
+{
+  "name": "apollo-tools-bug-repro",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "@graphql-tools/delegate": "9.0.3",
+    "@graphql-tools/schema": "9.0.1",
+    "@graphql-tools/stitch": "8.7.6",
+    "apollo-server": "3.10.1",
+    "graphql": "16.6.0",
+    "@whatwg-node/fetch": "0.3.2"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js localhost 4000"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@types/graphql": "14.0.1",
+    "nodemon": "1.18.4"
+  }
+}
